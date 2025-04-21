@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netlify Test Form</title>
+</head>
+<body>
+  <h1>Netlify Form Test</h1>
+  
+  <form name="test-form" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="test-form" />
+    
+    <p>
+      <label>Your Name:<br />
+      <input type="text" name="name" required /></label>
+    </p>
+
+    <p>
+      <label>Your Email:<br />
+      <input type="email" name="email" required /></label>
+    </p>
+
+    <p>
+      <label>Your Message:<br />
+      <textarea name="message" required></textarea></label>
+    </p>
+
+    <p><button type="submit">Send</button></p>
+  </form>
+
+</body>
+</html>
